@@ -17,6 +17,11 @@ This React project can detect and display card type icons for various debit and 
 
 User experience is enhanced by dynamically displaying the corresponding fields and card type icons based on the entered card number, with a smooth and interactive UI for entering payment information.
 
+## Built With
+
+- React/JavaScript
+- Vite
+
 ## Prerequisites
 
 - Node.js and npm (Node Package Manager)
