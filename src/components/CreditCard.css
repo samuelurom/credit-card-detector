@@ -30,7 +30,7 @@
   background-size: cover;
   background-position: center;
   border-radius: 5px;
-  align-self: flex-start;
+  align-self: flex-end;
 }
 
 .card-type {
