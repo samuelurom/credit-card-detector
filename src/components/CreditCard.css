@@ -1,0 +1,78 @@
+.credit-card {
+  font-family: 'Source Code Pro', monospace;
+  width: 400px;
+  height: 251px;
+  background-image: radial-gradient( circle 854px at -25.8% 40.5%,  rgba(0,62,125,1) 0%, rgba(255,255,255,1) 99.9% );
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  position: relative;
+}
+
+.credit-card label {
+  font-size: 11px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chip {
+  width: 50px;
+  height: 40px;
+  background-color: #feefdb;
+  background-image: url('../assets/icons/chip.svg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  align-self: flex-start;
+}
+
+.card-type {
+  width: 80px;
+  height: 70px;
+}
+
+.card-number {
+  font-size: 29px;
+  margin: 10px 0;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-holder,
+.card-expiry {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-holder span, .expiry-date {
+  font-size: 20px;
+}
+
+.expires, .valid-thru {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.valid-thru {
+  font-size: 9px;
+}
+
+.valid-thru p {
+  margin: 0px;
+}
+
+.valid-thru span {
+  font-size: 15px;
+}
